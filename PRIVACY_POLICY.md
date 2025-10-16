@@ -1,77 +1,59 @@
-Privacy Policy for DevScript Injector
+# Privacy Policy for DevScript Injector
+_Last updated: October 2025_
 
-Last updated: October 2025
+## Overview
+DevScript Injector is a developer tool designed to help web developers override, test, and debug JavaScript files in a controlled and secure environment. This Privacy Policy explains how the extension handles data, what limited information it collects, and how that information is used.
 
-Overview
+---
 
-DevScript Injector is a browser extension built for developers to override, test, and debug JavaScript files in a secure environment.
-This Privacy Policy explains what data the extension handles, how it is used, and the limited circumstances in which information is transmitted.
+## Data Collection and Use
+- **License Key Storage**  
+  Your license key is stored locally using Chrome’s secure `chrome.storage` API. It never leaves your device unless you activate the extension.
 
-Data Collection and Use
+- **License Verification Logs**  
+  When the extension is activated, it sends license verification data to **Airtable**.  
+  This includes:
+  - License key value  
+  - Domain where the extension was used  
+  - Timestamp of last activity  
 
-License Key Storage
-The user’s license key and toggle preferences (such as auto-inject status) are stored locally using Chrome’s secure chrome.storage API.
-These values remain on the user’s device and are not shared unless license verification is triggered.
+  These logs help prevent license misuse and ensure fair access to premium features.
 
-License Verification and Usage Logs
-When premium features are activated, the extension sends a lightweight verification request to Airtable.
-The data transmitted includes only:
+- **No Personal or Sensitive Data**  
+  The extension does **not** collect personal identifiers, browsing history, webpage content, or any data unrelated to license validation.
 
-The license key value
+---
 
-The domain where the extension was used
+## Third-Party Services
+- **Airtable** is used only for license verification and activity logging.  
+- **GitHub** and **jsDelivr** are used as trusted sources for loading developer-approved script overrides.
 
-The timestamp of the last activity
+All communication with these services occurs over HTTPS to ensure encryption and integrity.
 
-This data is used solely to verify active licenses and monitor usage count.
+---
 
-No Personal or Sensitive Information Collected
-DevScript Injector does not access or collect personally identifiable information, browsing history, webpage content, credentials, or any unrelated data.
+## Data Retention
+Minimal usage logs (license, domain, and timestamp) are stored on Airtable servers.  
+You can request deletion of your license record by contacting us at the email below.
 
-Third-Party Services and APIs
+---
 
-Airtable – Used only for license validation and usage logging.
+## Security
+- No passwords or personal credentials are stored or transmitted.  
+- The extension runs locally in your browser and does not share or sell data to third parties.
 
-GitHub and jsDelivr CDN – Used to host developer-approved JavaScript override files.
+---
 
-All communications with these services occur over HTTPS to ensure encryption and integrity.
+## Your Rights
+If you wish to request deletion of your license logs or have privacy questions, contact us at the email below.
 
-Permissions Explanation
+---
 
-storage – Needed to securely store the user’s license key and settings locally.
+## Contact
+For questions about this Privacy Policy, please contact:  
+📧 **[your email here]**
 
-tabs and activeTab – Required to inject or override scripts only in the tab the user is working on.
+---
 
-scripting – Enables safe injection of developer override code.
-
-declarativeNetRequest – Allows controlled redirection of specific developer script URLs (e.g., testing builds).
-
-declarativeNetRequestWithHostAccess – Grants access only to trusted developer-controlled sources (GitHub, jsDelivr, Airtable).
-
-The extension does not access arbitrary user data or content from visited sites.
-
-Data Retention and Deletion
-
-Airtable stores minimal usage records (license key, domain, timestamp).
-These are retained only while the license remains active.
-Users may request deletion of their record by contacting the developer at the email address below.
-
-Security Practices
-
-All external requests use secure HTTPS endpoints.
-
-No authentication tokens, passwords, or personal credentials are stored.
-
-The extension runs entirely in the user’s browser sandbox and never shares data with advertisers or analytics platforms.
-
-User Rights and Contact
-
-If you have questions about data handling or would like your license record deleted, please contact:
-📧 support@yourdomain.com
- (or your preferred contact email)
-
-Policy Updates
-
-We may occasionally update this Privacy Policy to reflect functionality changes or compliance updates.
-The “Last Updated” date will always indicate the most recent revision.
-Continued use of the extension after any update implies acceptance of the new policy.
+## Changes to This Policy
+We may update this Privacy Policy periodically. Continued use of the extension after updates constitutes acceptance of the new terms.
