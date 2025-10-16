@@ -51,7 +51,7 @@ If you wish to request deletion of your license logs or have privacy questions, 
 
 ## Contact
 For questions about this Privacy Policy, please contact:  
-📧 **[your email here]**
+📧 **[a2@k1cck.com]**
 
 ---
 
